@@ -1,0 +1,30 @@
+# ── Model weights (large binary files – keep locally, never commit) ──────────
+backend/models/
+*.pth
+*.pt
+*.pkl
+*.h5
+*.onnx
+
+# ── Python virtual environment ───────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Python cache ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ── Video frames ─────────────────────────────────────────────────────────────
+frames_one/
+frames_*/
+
+# ── macOS metadata ────────────────────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+
+# ── Uploads / generated outputs ──────────────────────────────────────────────
+uploads/
+output/
+results/
